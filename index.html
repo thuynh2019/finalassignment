@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Image gallery</title>
 
   <link rel="stylesheet" href="style.css">
@@ -12,8 +12,8 @@
 
 <body>
   <header>
-    <h1>TY HUYNH</h1>
-    <nav>
+    <h1 style="font-size:2.7vw;">TY HUYNH</h1>
+    <nav style="font-size:3.6vw;">
       <ul>
         <li><a href="#About"><b>About</b></a></li>
         <li><a href="#Portfolio"><b>Portfolio</b></a></li>
@@ -25,14 +25,19 @@
 
   <body background="https://images.pond5.com/4k-uhdtv-sunset-sky-footage-077527835_prevstill.jpeg">
 
-    <a id="About"><aside>  </a>
-      <h2>Nice to meet you!</h2>
-      <img src="images/huynhlogo.png" alt="mylogo">
-      <p>Nam vulputate diam nec tempor bibendum. Donec luctus augue eget malesuada ultrices. Phasellus turpis est, posuere sit amet dapibus ut, facilisis sed est.</p>
+    <a id="About"><br>
+      <aside>
+    </a>
+    <h2 style="font-size:4vw;">Nice to meet you!</h2>
+    <img src="images/koda's first birthday.png" alt="image of me">
+    <p style="font-size:1vw;">
+      (Me, my little brother, and our first dog ever on his first birthday)
+    </p><br />
+    <p style="font-size:1.5vw;">My name is Ty Huynh(Tie Hwin), and I am an Arkansas State University student pursuing a Bachelor's in Digital Innovations. I approach art and design as an experience to be felt. Feeling something just from looking at a painting seems to make it more memorable.  </p>
     </aside>
 
-    <div id="Portfolio">
-      <h2>Portfolio</h2>
+    <div id="Portfolio" >
+      <h3>Portfolio Gallery</h3>
     </div>
     <div class="full-img">
       <img class="displayed-img" src="images/pic1.jpg">
@@ -45,6 +50,22 @@
 
     </div>
     <footer>
+      <a id="Connect"><article></a>
+        <form action="contactform.php method=" post">
+          <p><strong>Let's Chat</strong></p>
+          <input type="text" name="email" placeholder="Name"></input>
+          <input type="text" name="email" placeholder="Email"></input><br />
+          <textarea name="message" placeholder="Write message here."></textarea><br />
+          <button type="submit" name="submit" >Submit</button>
+        </form>
+      </article>
+      <div id="navlinks">
+        <ul>
+          <li><a href="#About"><b>About</b></a></li>
+          <li><a href="#Portfolio"><b>Portfolio</b></a></li>
+          <li><a href="#Connect"><b>Connect</b></a></li>
+        </ul>
+      </div>
       <div id="footernav">
         <ul>
           <li><a href="https://twitter.com/OrientalTy" target="_blank"><img src="Images/twitter.png" alt="Twitter" height="32" width="32" /></a></li>
@@ -54,7 +75,7 @@
         </ul>
       </div>
       <div>
-        <p class="third-paragraph">Ty Huynh Creative &copy; 2020</p>
+        <p class="third-paragraph">Ty Huynh Creative &copy; 2020 | ty.huynh@smail.astate.edu</p>
       </div>
     </footer>
     <script src="main.js"></script>
